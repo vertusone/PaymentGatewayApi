@@ -1,0 +1,28 @@
+Task 2: Payment Gateway Workflow
+
+1. Merchant Integration:
+- Merchants register with the payment gateway and receive API credentials
+- They integrate the payment gateway API into their systems
+- Merchants can initiate payment requests with customer card details
+
+2. Transaction Flow:
+- Merchant sends payment request with amount and card details
+- Payment gateway validates the request and card information
+- Gateway forwards the request to the acquiring bank
+- Bank processes the transaction and returns the result
+- Gateway notifies merchant of the transaction status
+- Funds are settled between merchant and bank according to schedule
+
+Key Components:
+- Secure API endpoints for payment processing
+- Card validation and security checks
+- Transaction logging and monitoring
+- Error handling and retry mechanisms
+- Settlement processing system
+
+Security Features:
+- PCI DSS compliance requirements
+- Encryption of sensitive card data
+- Tokenization for card information
+- Fraud detection mechanisms
+- Secure communication channels
